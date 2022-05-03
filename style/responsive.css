@@ -1,0 +1,53 @@
+@media screen and (max-width:1000px) {
+    header.container {
+        display:flex;
+        flex-direction: column;
+        overflow: hidden;
+    }
+
+    .logo{
+      justify-content: center;
+    }
+
+    .menu1{
+       justify-content: center;
+    
+    }
+
+    .botao {
+        margin-top: 5px;
+        width: 500px;
+        justify-content: center;
+        display: flex;
+
+    }
+
+    .description {
+        width: 500px;
+        margin-right: 10px;
+
+    }
+
+    .description2 {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
+
+    .title {
+        width: 500px;
+        justify-content: center;
+        display: flex;
+
+    }
+
+
+
+}
+
+@media screen and (min-width:10000px) {
+    .description {
+        width: 50%;
+    }
+
+}
